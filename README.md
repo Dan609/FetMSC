@@ -19,7 +19,7 @@ Rac1_nucleus.csv
 RhoA_F-Actin.csv
 RhoA_nucleus.csv
 
-5) FetMSC_/passage number/_motility_/serum percentage/_/experimental condition/_*.csv – this files contain X-Y coordinates from cell 24h motility trackes, time step = 15 min
+5) FetMSC_/passage number/_motility_/serum percentage_/experimental condition/_*.csv – this files contain X-Y coordinates from cell 24h motility trackes, time step = 15 min, 1 px = 0.6525 microns
 
 6) R scripts for cell motility analysis. To calculate the mobility parameters, put the track *.csv files in separate folders corresponding to each experimental point.
 
