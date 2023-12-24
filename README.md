@@ -1,8 +1,12 @@
-# Replicative senescence in human embryo bone marrow MSCs is characterized by changes in cell motility and subcellular local-ization of Rac1 and RhoA GTPases
+# Replicative senescence in human embryo bone marrow MSCs is characterized by changes in cell motility and subcellular localization of Rac1 and RhoA GTPases
 
-Anastasia Lukacheva; Anastasia Gorb; Anastasia Musorina; Daria Kriger; Galina Poljanskaya; Danila Bobkov
+Danila Bobkov
 Institute of Cytology, Russian Academy of Sciences, St. Petersburg, 194064
 Correspondence: bobkov@incras.ru
+
+Citation: Lukacheva A.V., Gorb A.I., Musorina A.S., Kriger D.V., Poljanskaya G.G., Bobkov D.E., Replicative senescence in human embryo bone marrow MSCs is characterized by changes in cell motility and subcellular localization of Rac1 and RhoA GTPases, Russian Journal of Bioorganic Chemistry, 2023, Vol. 59, Suppl. 1, pp. S224–S240. DOI: 10.1134/S106816202312018X
+
+
 
 Data and scripts for FetMSC cells analysis:
 
