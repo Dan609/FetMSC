@@ -55,7 +55,7 @@ traj_analysis_p12C <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -143,7 +143,7 @@ traj_analysis_p12L <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -231,7 +231,7 @@ traj_analysis_p12Y <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -319,7 +319,7 @@ traj_analysis_p6Z <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -407,7 +407,7 @@ traj_analysis_p6D <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -495,7 +495,7 @@ traj_analysis_p6_10 <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -587,7 +587,7 @@ traj_analysis_p16C <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -675,7 +675,7 @@ traj_analysis_p16L <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -763,7 +763,7 @@ traj_analysis_p16Y <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -851,7 +851,7 @@ traj_analysis_p15Z <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/23.75) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -939,7 +939,7 @@ traj_analysis_p15D <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/23.75) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1027,7 +1027,7 @@ traj_analysis_p15_10 <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 95/3600/23.75) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1118,7 +1118,7 @@ traj_analysis_p20C <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1206,7 +1206,7 @@ traj_analysis_p20L <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1294,7 +1294,7 @@ traj_analysis_p20Y <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") #15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1384,7 +1384,7 @@ traj_analysis_p26C <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1472,7 +1472,7 @@ traj_analysis_p26L <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
@@ -1560,7 +1560,7 @@ traj_analysis_p26Y <- function(input) {
     trj <- TrajFromCoords(coords, spatialUnits = "pixels", timeUnits = "seconds", fps = 96/3600/24) #fps frames/3600/hours = 1/120
     TrajDuration(trj) # Returns the temporal duration of the trajectory (or a portion)
     # A 0.6579 object had length 1 pixels in the video, scale to micrometres
-    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 7.5 px = 10 microns
+    trj <- TrajScale(trj, 0.6525 / 1, "micrometer") # 15.32 px = 10 microns
     TrajGetUnits(trj) # Returns the spatial units of a trajectory
     TrajGetTimeUnits(trj)	#Returns the temporal units of a trajectory
     TrajStepLengths(trj)	#Returns the lengths of each step within the trajectory
